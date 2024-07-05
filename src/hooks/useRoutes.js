@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import Login from "../Pages/Login/LoginPage/LoginPage";
 import Signup from "../Pages/Signup/SignupPage/SignupPage";
+import Home from "../container/Home";
 
 export const useRoutes = () => {
   const Routes = useMemo(
@@ -17,6 +18,13 @@ export const useRoutes = () => {
         path: "/signup",
         name: "Signup",
         element: <Signup />,
+        hasPlainLayout: true,
+      },
+      {
+        id: "home_page",
+        path: "/",
+        name: "Home",
+        element: <Home />,
         hasPlainLayout: true,
       },
     ],
