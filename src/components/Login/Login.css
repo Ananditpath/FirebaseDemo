@@ -1,0 +1,183 @@
+.login-from {
+  width: 80rem;
+  height: 45rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #e9f8e6;
+}
+
+.login-from > .login-froml {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-from > .login-froml > svg {
+  height: 25rem;
+  width: 25rem;
+}
+
+.login-from > .login-fromr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40rem;
+  padding: 1.5rem 3rem;
+  background-color: white;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  box-shadow: -3px 0 10px -2px rgba(0, 0, 0, 0.2);
+}
+.login-from > .login-fromr > .form-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.login-from > .login-fromr > .form-header p {
+  margin-bottom: 0.5rem;
+}
+.login-from > .login-fromr > .form-header > svg:first-child {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+.login-from > .login-fromr > .form-header > svg:nth-child(2) {
+  display: none;
+}
+.login-from > .login-fromr > .form-header > p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4c4c4d;
+}
+.login-from > .login-fromr > .form-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.login-from > .login-fromr > .form-footer .anchor-tag:hover {
+  cursor: pointer;
+  color: darkblue !important;
+}
+.login-from > .login-fromr > .form-footer > .text-legend {
+  color: silver;
+  font-size: 1.2rem;
+}
+.login-from > .login-fromr > .form-footer > .social-icons {
+  margin: 1rem 0rem;
+}
+.login-from > .login-fromr > .form-footer > .social-icons > .social-icon:hover {
+  cursor: pointer;
+}
+.login-from
+  > .login-fromr
+  > .form-footer
+  .social-icon:not(.social-icon:last-child) {
+  margin-right: 2rem;
+}
+.login-from > .login-fromr > .form-footer .social-icon svg {
+  border: 1px solid silver;
+  border-radius: 50%;
+  padding: 0.35rem;
+}
+.login-from > .login-fromr > .form-footer .text-footer {
+  color: #000000be;
+}
+@media screen and (max-width: 1200px) {
+  .login-from {
+    width: 70rem;
+    height: 40rem;
+  }
+  .login-from > .login-froml {
+    width: 35rem;
+  }
+  .login-from > .login-froml > svg {
+    height: 20rem;
+    width: 20rem;
+  }
+  .login-from > .login-fromr {
+    width: 35rem;
+    padding: 1rem 2.5rem;
+  }
+  .login-from > .login-fromr > .form-header > p {
+    font-size: 1.75rem;
+  }
+  .login-from > .login-fromr > .form-header > svg:first-child {
+    width: 4.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .login-from > .login-fromr > .form-footer > .text-legend {
+    color: silver;
+    font-size: 1.1rem;
+  }
+  .login-from > .login-fromr > .form-footer > .text-footer {
+    font-size: 0.85rem;
+  }
+}
+@media screen and (max-width: 920px) {
+  .login-from {
+    width: 50rem;
+    height: 35rem;
+  }
+  .login-from > .login-froml {
+    width: 25rem;
+  }
+  .login-from > .login-froml > svg {
+    height: 15rem;
+    width: 15rem;
+  }
+  .login-from > .login-fromr {
+    width: 25rem;
+    padding: 1rem 2rem;
+  }
+  .login-from > .login-fromr > .form-header > p {
+    font-size: 1.5rem;
+  }
+  .login-from > .login-fromr > .form-header > svg:first-child {
+    width: 4rem;
+    margin-bottom: 0.65rem;
+  }
+  .login-from > .login-fromr > .form-footer > .text-legend {
+    color: silver;
+    font-size: 1rem;
+  }
+  .login-from > .login-fromr > .form-footer > .text-footer {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login-from {
+    font-size: 1.1rem;
+    height: max-content;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+  }
+  .login-from > .login-froml {
+    display: none;
+    width: 0rem;
+  }
+  .login-from > .login-froml > svg {
+    height: 0rem;
+    width: 0rem;
+  }
+  .login-from > .login-fromr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50rem;
+    padding: 1.5rem 3rem;
+    box-shadow: unset;
+    background-color: white;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+  .login-from > .login-fromr > .form-header > svg:nth-child(2) {
+    display: block;
+    height: 15rem;
+  }
+}
